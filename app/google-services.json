@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "621737437254",
+    "firebase_url": "https://horiba-ats.firebaseio.com",
+    "project_id": "horiba-ats",
+    "storage_bucket": "horiba-ats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621737437254:android:5922a2905b7e3fe7ac0247",
+        "android_client_info": {
+          "package_name": "com.horibacare.ats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621737437254-dojhh6h4be5his5kvor5apsrnkfgqn6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALAL9y81Toui44ncxbgaJrg_k6cE5QCX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621737437254-dojhh6h4be5his5kvor5apsrnkfgqn6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

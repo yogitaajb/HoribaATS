@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#478CD0</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#e6514e</color>
+
+    <color name="menu_text_color">#478CD0</color>
+    <color name="horiba_red">#e6514e</color>
+
+    <color name="textColor">#333333</color>
+    <color name="lightGray">#E9E7E7</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="green">#4CAF50</color>
+</resources>

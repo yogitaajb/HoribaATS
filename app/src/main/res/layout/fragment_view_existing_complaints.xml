@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".customer.MyEquipmentsFragment">
+    <LinearLayout
+        android:id="@+id/Ll1"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/ivImage"
+            android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:layout_width="30dp"
+            android:tint="@color/lightGray"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tvBuildingName"
+            android:text="Buildings"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#867878"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt1"
+        android:text="Repair History"
+        android:layout_below="@+id/Ll1"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/textColor"/>
+
+    <GridView
+        android:id="@+id/gvProducts"
+        android:numColumns="1"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

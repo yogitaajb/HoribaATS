@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.NewsDetailsCFragment">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="This is nes title. In short news will go hear. After reading title user will decide either to read full news or leave it. It will depends on his or her interest about the domain aread of news."
+            android:id="@+id/tvTitle"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="14-06-2019 "
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:src="@color/colorPrimary"
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="This is nes title. In short news will go hear. After reading title user will decide either to read full news or leave it. It will depends on his or her interest about the domain aread of news."
+            android:id="@+id/tvDesc"
+            android:textSize="16dp"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ivImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+</ScrollView>

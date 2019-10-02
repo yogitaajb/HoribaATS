@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardElevation="4dp"
+    android:layout_marginTop="10dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@color/colorPrimary"
+            android:id="@+id/ivSparepart"
+            android:layout_weight="20"
+            android:layout_width="0dp"
+            android:layout_height="80dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="6dp"
+            android:layout_weight="80"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/tvTitle"
+                android:text="Product Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#D3D3D3"
+                android:layout_width = "match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="50"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:text="Material Code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:id="@+id/tvSapId"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="50"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:text="Quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:id="@+id/tvQty"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#D3D3D3"
+                android:layout_width = "match_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:id="@+id/tvDesc"
+                android:text="Product Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--<TextView-->
+                <!--android:gravity="right"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="14dp"-->
+                <!--android:id="@+id/tvQty"-->
+                <!--android:text="Qty - 50"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/lyt_parent"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_height="30dp">
+
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="Ticket Id"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_ticket_id"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_height="30dp">
+
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="Raised on"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_raised_on"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_height="30dp">
+
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="Closure date"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_closure_date"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_height="30dp">
+
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="status"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/textColor"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_status"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/textColor"/>
+</LinearLayout>

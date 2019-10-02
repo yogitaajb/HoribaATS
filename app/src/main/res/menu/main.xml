@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:visible="false"
+        android:id="@+id/action_change_pwd"
+        android:orderInCategory="100"
+        android:title="Change Password"
+        app:showAsAction="never" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_contact_us"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_balance"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title=""-->
+        <!--app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:icon="@drawable/logout"
+        android:iconTint="@color/white"
+        android:title=""
+        app:showAsAction="always" />
+</menu>

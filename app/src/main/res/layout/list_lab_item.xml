@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="7dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/lyt_parent"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_back_theme"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:background="@drawable/ic_navigation_black_24dp"
+            android:rotation="90"
+            android:layout_width="30dp"
+            android:backgroundTint="@color/white"
+            android:layout_height="20dp" />
+        <TextView
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/tvLabName"
+            android:text="Lab Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>

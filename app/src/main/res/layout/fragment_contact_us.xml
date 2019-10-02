@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".customer.ContactUsFragment">
+
+    <ImageView
+        android:src="@drawable/splash"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+        android:background="@color/textColor"
+        android:text="Email:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:drawableTint="@color/colorPrimary"
+        android:drawableRight="@android:drawable/sym_action_email"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="service-ats.in@horiba.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+        android:background="@color/textColor"
+        android:text="Toll Free:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCall"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:drawableTint="@color/colorPrimary"
+        android:drawableRight="@android:drawable/sym_action_call"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="18001034470"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
